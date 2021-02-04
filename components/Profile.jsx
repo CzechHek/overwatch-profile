@@ -103,7 +103,7 @@ module.exports = class Profile extends React.PureComponent {
                 <AdvancedScrollerThin className='overwatch-profile' fade={true}>
                     <Flex justify={Flex.Justify.START} wrap={Flex.Wrap.WRAP}>
                         <Section title='Name'>{stats.name}</Section>
-                        <Section title='Level'>{parseInt(stats.prestige.toString() + '00') + stats.level}</Section>
+                        <Section title='Level'>{stats.prestige.toString() + stats.level.toString()}</Section>
                         <Section title='Endorsement Level'>{stats.endorsement}</Section>
                     </Flex>
                 </AdvancedScrollerThin>
