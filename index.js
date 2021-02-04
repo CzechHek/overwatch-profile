@@ -26,7 +26,6 @@ module.exports = class OverwatchProfile extends Plugin {
             const { user, connectedAccounts } = this.props;
            
             if (!user || user.bot) return;
-      
             
             try {
                 if (connectedAccounts) {
