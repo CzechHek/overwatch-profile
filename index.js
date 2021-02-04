@@ -80,17 +80,6 @@ module.exports = class OverwatchProfile extends Plugin {
         uninject('user-profile-tab-bar');
         uninject('user-profile-body');
         uninject('user-profile-update');
-
-        /*
-        uninject('test-profile-render')
-        uninject('test-profile-info-render')
-        uninject('test-user-tab-bar')
-        uninject('test-user-body')
-        uninject('test-user-load')
-
-        uninject('test-profile-mount')
-        uninject('test-profile-update')
-        */
     }
 
     async fetchStats(battleTag) {
